@@ -1,10 +1,10 @@
-const viloes = [
+module.exports = [
     'Poucas Trancas',
     'Quase Nada',
     'Tripa Seca',
     'Racha Cuca',
     'Rosa Rumorosa',
-    'Fast Turtle'
+    'Pirata Alma Negra'
 ]
 
-module.exports = viloes
+//module.exports = viloes
