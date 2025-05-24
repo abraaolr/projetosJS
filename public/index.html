@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundo do Chapolin</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      padding: 20px;
+      background-color: #ffe6e6;
+    }
+    h1 {
+      color: #cc0000;
+    }
+    .resultado {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      background: #fff0f0;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #cc0000;
+    }
+    .item {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌟 Mundo do Chapolin 🌟</h1>
+  <button onclick="mostrarMensagem()">Gerar fatos aleatórios</button>
+
+  <div class="resultado">
+    <div class="item"><strong>Vilão:</strong> <span id="vilao"></span></div>
+    <div class="item"><strong>Objeto:</strong> <span id="objeto"></span></div>
+    <div class="item"><strong>Frase Clássica:</strong> <span id="fraseClassica"></span></div>
+    <div class="item"><strong>Despedida:</strong> <span id="despedida"></span></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
