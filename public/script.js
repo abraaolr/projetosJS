@@ -42,3 +42,12 @@ function mostrarMensagem() {
   document.getElementById('fraseClassica').textContent = pegaDadoAleatorio(frasesClassicas)
   document.getElementById('despedida').textContent = pegaDadoAleatorio(frasesFinais)
 }
+
+function limparMensagem () {
+  const ids = ['vilao', 'objeto', 'fraseClassica', 'despedida']
+  ids.forEach(id => document.getElementById(id).textContent = '')
+}
+
+// Adiciona os listeners após o carregamento do script
+document.getElementById('gerarBtn').addEventListener('click', mostrarMensagem)
+document.getElementById('limparBtn').addEventListener('click', limparMensagem)
